@@ -6,11 +6,11 @@
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "create-local": "graph create btcix/shuttleswap --node https://thegraph-node.shulik.xyz",
-    "deploy-local": "graph deploy btcix/shuttleswap --debug --ipfs https://thegraph-ipfs.shulik.xyz --node https://thegraph-node.shulik.xyz",
+    "create-local": "graph create btcix/shuttleswap --node https://thegraph-node.btcix.org",
+    "deploy-local": "graph deploy btcix/shuttleswap --debug --ipfs https://thegraph-ipfs.btcix.org --node https://thegraph-node.btcix.org",
     "deploy": "graph deploy btcix/shuttleswap --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --debug",
-    "deploy-staging": "graph deploy $THE_GRAPH_GITHUB_USER/$THE_GRAPH_SUBGRAPH_NAME /Uniswap --ipfs https://thegraph-ipfs.shulik.xyz --node https://thegraph-node.shulik.xyz",
-    "watch-local": "graph deploy btcix/shuttleswap --watch --debug --node https://thegraph-node.shulik.xyz --ipfs https://thegraph-ipfs.shulik.xyz"
+    "deploy-staging": "graph deploy $THE_GRAPH_GITHUB_USER/$THE_GRAPH_SUBGRAPH_NAME /Uniswap --ipfs https://thegraph-ipfs.btcix.org --node https://thegraph-node.btcix.org",
+    "watch-local": "graph deploy btcix/shuttleswap --watch --debug --node https://thegraph-node.btcix.org --ipfs https://thegraph-ipfs.btcix.org"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.16.0",
