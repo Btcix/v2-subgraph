@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: btcix
+    network: mainnet
     source:
-      address: '0xDfdf945AC66E8CAaa23C2D5E1F0ddA0ad4d3D3e1'
+      address: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
       abi: Factory
-      startBlock: 5330400
+      startBlock: 10000834
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: btcix
+    network: mainnet
     source:
       abi: Pair
     mapping:
